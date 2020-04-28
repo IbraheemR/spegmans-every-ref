@@ -34,3 +34,4 @@ title: WIP Pages
 - Multiple authors
 - Templates for page moves/merges/deletions
 - More rigrous citation specification
+- Specify categories in a data file as opposed to deriving from _content directory?

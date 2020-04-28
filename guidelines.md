@@ -117,8 +117,9 @@ When you give attribution, either link to a source as [below](#citing-sources) o
 > [*Hamlet by William Shakespeare, Act 3 Scene 1*](http://shakespeare.mit.edu/hamlet/hamlet.3.1.html)
 ```
 
-### Maths
-We use MathJAX (v2) to render mathematical equations.
+### Maths / Chemisty
+We use MathJAX to render mathematical equations.
+[This](https://mhchem.github.io/MathJax-mhchem/) extension handles chemistry.
 
 Use `$$` to define equations:
 ```
@@ -228,6 +229,7 @@ We aim to follow [Semantic Versioning](https://semver.org/), however as the orig
 >
 > [*https://semver.org/*](https://semver.org/)
 
+The site deployment on netlify is set to rebuild a fresh site when a new release is released.
 
 ### Content Related Versioning
 
@@ -252,12 +254,6 @@ redirect_from: /misc/old_page
 If a page is deleted, a file should be left in its place informing any users of this change.
 
 Whether these temporary pages should be kept after a MAJOR change should be decided on a case by case basis.
-
-### Infrastructure Related Versioning
-
-Versions seeing updates to code and should increment version numbers as per the original semver spec, and suffix `-code` to the verion:
-
-`MAJOR.MINOR.PATCH-code`
 
 
 
