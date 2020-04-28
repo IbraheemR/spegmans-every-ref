@@ -11,12 +11,10 @@
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
 
-    {% for node in site.content %}
+    {% for node in site.categories %}
     {% if node.title != null %}
-    {% if node.relative_path contains "index" %}
     <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">>
       {{ node.title }}</a>
-    {% endif %}
     {% endif %}
     {% endfor %}
 
