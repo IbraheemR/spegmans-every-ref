@@ -229,7 +229,7 @@ We aim to follow [Semantic Versioning](https://semver.org/), however as the orig
 >
 > [*https://semver.org/*](https://semver.org/)
 
-The site deployment on netlify is set to rebuild a fresh site when a new release is released.
+Versions should be tagged with github released on the master branch.
 
 ### Content Related Versioning
 
@@ -255,6 +255,8 @@ If a page is deleted, a file should be left in its place informing any users of 
 
 Whether these temporary pages should be kept after a MAJOR change should be decided on a case by case basis.
 
+## Deploying to netlify
 
+When a new version is released, it should be merged to the `deploy` branch - this will trigger a deploy with netlify.
 
-
+Any commit on any branch will create a preview deploy.
