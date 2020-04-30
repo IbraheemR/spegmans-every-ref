@@ -189,23 +189,23 @@ layout: category
 
 ### Important Files
 
-| Name | File | Description |
-|----------|--------|-------------|
-| Home | `index.md` | Site homepage. |
-| Guidelines | `guidelines.md` | Information related to contributing to the reference. |
-| README | `README.md`| Information related to developing the technical side of the site. |
-| WIP/Planned Content | `wip.md` | Record of work-in-progress or planned pages |
+| Name                | File            | Description                                                       |
+|---------------------|-----------------|-------------------------------------------------------------------|
+| Home                | `index.md`      | Site homepage.                                                    |
+| Guidelines          | `guidelines.md` | Information related to contributing to the reference.             |
+| README              | `README.md`     | Information related to developing the technical side of the site. |
+| WIP/Planned Content | `wip.md`        | Record of work-in-progress or planned pages                       |
 
 
 ### Current Categories
 
-| Category | Folder | Description |
-|----------|--------|-------------|
-| Miscelaneous |`misc/`| Anything taht does not belong in another category. |
-| Mathematics | `mathematics/` | Math(s) related reference. Geometery, Numbers, Set tTheory etc. |
-| Science | `science/` | Scientific reference - Physics, Chemistry, Biology etc.  |
-| Standards | `standards/` | Reference for standards - e.g from ISO, w3c, Unicode Consortium |
-| Languages | `language/` | Languages, alphabets and linguistics reference |
+| Category     | Folder         | Description                                                     |
+|--------------|----------------|-----------------------------------------------------------------|
+| Miscelaneous | `misc/`        | Anything taht does not belong in another category.              |
+| Mathematics  | `mathematics/` | Math(s) related reference. Geometery, Numbers, Set tTheory etc. |
+| Science      | `science/`     | Scientific reference - Physics, Chemistry, Biology etc.         |
+| Standards    | `standards/`   | Reference for standards - e.g from ISO, w3c, Unicode Consortium |
+| Languages    | `language/`    | Languages, alphabets and linguistics reference                  |
 
 ### Adding an author
 To add youself as an author, add an entry to `/_data/authors.yml`, like follows:
@@ -257,6 +257,4 @@ Whether these temporary pages should be kept after a MAJOR change should be deci
 
 ## Deploying to netlify
 
-When a new version is released, it should be merged to the `deploy` branch - this will trigger a deploy with netlify.
-
-Any commit on any branch will create a preview deploy.
+Deploys are triggered by creating a new tag on github. This will trigger a github action to build the site, and deploy it on netlify.
