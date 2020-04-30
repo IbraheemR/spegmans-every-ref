@@ -15,8 +15,17 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v1
 
-    - name: Run Jekyll
-      uses: docker://faph/action-jekyll:1.5
+    - name: Setup Ruby for use with actions
+      uses: actions/setup-ruby@v1.0.0
+    
+    - name: Install Bundler
+      run: gem install bundler
+      
+    - name: Bundle Install
+      run: bundle install
+    
+    - name: Build site
+      run: bundle exec jekyll build
       
     - name: Deploy to netlify
       uses: netlify/actions/cli@master
