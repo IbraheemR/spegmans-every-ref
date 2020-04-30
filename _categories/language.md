@@ -1,4 +1,4 @@
 ---
 title: Language
-layout: category
+category_id: language
 ---

@@ -2,11 +2,9 @@
 layout: page
 ---
 
-{% assign path = page.url |split: "/" %}
-{% assign category = path[1] %}
+{{ content }}
 
-{% capture index %}{% include content-index.md group=category %}{% endcapture %}
+{% capture index %}{% include content-index.md group=page.category_id %}{% endcapture %}
 {{ index | markdownify }}
 
 
-{{ content }}

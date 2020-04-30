@@ -1,7 +1,7 @@
 # Setup
 title: Spegman's Every Ref.
 description: 'A collection of useful and interesting facts, figures and charts.'
-
+url: https://spegman.ibraheemrodrigues.com
 logo: /public/favicon.png
 
 markdown: kramdown
@@ -22,9 +22,19 @@ collections:
   content:
     output: true
     permalink: /:path
-    category: false
+
+  categories:
+    output: true
+    permalink: /:path
 
 defaults:
   -
     values:
       layout: "page"
+
+  -
+    scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"

@@ -1,4 +1,4 @@
 ---
 title: Science
-layout: category
+category_id: science
 ---
