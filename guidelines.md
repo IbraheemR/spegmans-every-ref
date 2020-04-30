@@ -22,34 +22,60 @@ You should either:
 Seed `README.md` for how to run the jekyll site locally.
 
 ## Key Terms
+All pages should be written in markdown. This site uses [kramdown-flavour markdown](https://kramdown.gettalong.org/) as is standard for Jekyll sites.
 
 These are the key terms, that should be used when refereing to parts of the project.
 
 - **Spegman's Every Ref.** (aka 'The Project', 'The Guide', 'The Site')
+  - [**Categories**](#categories) - Information groups, defined in `_categories/`
   - **Content** - Everything in the `_content/` folder
-    - **Categories** - Information grouped by common theme/context
-      - **Pages** (aka 'Guides')
-  - **Infrastructure** (aka 'The Code') - Anything that is a part of the site, but not directly viewable by the end user
-  
+    - [**Pages**](#pages) (aka 'Guides')
+  - [**Infrastructure** ](#infrastructure) (aka 'The Code') - Anything that is a part of the site, but not directly viewable by the end user
 
-## Structuring a Page
 
-All pages should be written in markdown. This site uses [kramdown-flavour markdown](https://kramdown.gettalong.org/) as is standard for Jekyll sites.
+## Categories
 
-Page files should be under their respective [category](#current-categories) in the `_content` folder, and must include the front matter as deffined [below](#template).
+Categories are defined with a markdown file in the `_categories` folder.
 
-Files can be structured in one of two ways:
-1. `<category>/<name>.md` (e.g.`misc/spoons.md`)
-2. `<category>/<name>/index.md` (e.g. `misc/spoons/spoons.md`)
+The name/path of the file will determine the url of the category index page, e.g `misc.md` => `site.com/misc/`.
+
+### Category Template
+```md
+---
+title: Miscellaneous # Mandatory, the name of category
+description: Blah blah blah # Optional, will show up on category index page.
+---
+
+<!-- Optional content here. Will show up on category index page -->
+```
+
+### Current Categories
+
+| Category      | ID            | Description                                                     |
+|---------------|---------------|-----------------------------------------------------------------|
+| Miscellaneous | `misc`        | Anything that does not belong in another category.              |
+| Mathematics   | `mathematics` | Math(s) related reference. Geometery, Numbers, Set tTheory etc. |
+| Science       | `science`     | Scientific reference - Physics, Chemistry, Biology etc.         |
+| Languages     | `language`    | Languages, alphabets and linguistics reference                  |
+
+## Pages
+
+Page files should be under their respective [category](#current-categories) in the `_content` folder, and must include the front matter as deffined [below](#page-template).
+
+Files can put in one of two places:
+1. `<category_path>/<name>.md` (e.g.`misc/spoons.md`)
+2. `<category_path>/<name>/index.md` (e.g. `misc/spoons/index.md`)
 
 File names should seperate words with underscores `_` (snake case)
 
-### Template
+### Page Template
 ```md
 ---
 title: Spoons # Mandatory
 description: Common and popular spoons # Optional
 author: j_spegman # Mandatory
+
+category: misc # Mandatory
 
 image: spoon.png #  Optional, for SEO
 ---
@@ -60,9 +86,9 @@ Spoons come in 3 flavours...
 ### Adding media
 If you wish to add media to use in a page (images, etc.):
 - Use [file structure 2](#structuring-a-page)
-- Put media files in the page folder
+- Put media files in the same folder as the page's `index.md`
 
-Media which is generic to all pages in a category may be included in the category folder.
+Media which is used in several pages in a category may be included in the category folder.
 
 ### Adding a Table of Contents
 To include a table of contents in on page, add the following code at the top, immediately following the front matter.
@@ -172,20 +198,7 @@ Spoons come in many flavours.[^1] <!-- Use it again-->
 See the [kramdown footnote docs](https://kramdown.gettalong.org/syntax.html#footnotes) for more.
 
 
-## Site Structure
-
-Content for this project can be found in the `/_content/` folder.
-
-Within this folder, subfolders for each category can be found ([list](#current-categories)). All reference pages must be in one of these subfolders, else they will not be indexed.
-
-Each category folder must include an `index.md`, with the following front matter:
-
-```md
----
-title: <CATEGORY NAME HERE>
-layout: category
----
-```
+## Infrastructure
 
 ### Important Files
 
@@ -196,16 +209,6 @@ layout: category
 | README              | `README.md`     | Information related to developing the technical side of the site. |
 | WIP/Planned Content | `wip.md`        | Record of work-in-progress or planned pages                       |
 
-
-### Current Categories
-
-| Category     | Folder         | Description                                                     |
-|--------------|----------------|-----------------------------------------------------------------|
-| Miscelaneous | `misc/`        | Anything taht does not belong in another category.              |
-| Mathematics  | `mathematics/` | Math(s) related reference. Geometery, Numbers, Set tTheory etc. |
-| Science      | `science/`     | Scientific reference - Physics, Chemistry, Biology etc.         |
-| Standards    | `standards/`   | Reference for standards - e.g from ISO, w3c, Unicode Consortium |
-| Languages    | `language/`    | Languages, alphabets and linguistics reference                  |
 
 ### Adding an author
 To add youself as an author, add an entry to `/_data/authors.yml`, like follows:
@@ -219,9 +222,9 @@ j_spegman:
 
 Your name will link to `url` (see top of page)
 
-See the [template](#template) for how to list a page's author
+See the [template](#page-template) for how to add an author to a page.
 
-## Versioning
+### Versioning
 
 We aim to follow [Semantic Versioning](https://semver.org/), however as the original specification is not intended for non-code applications, the following guidelines will be used to follow semver's spirit - chiefy to communicate intent.
 
@@ -231,7 +234,7 @@ We aim to follow [Semantic Versioning](https://semver.org/), however as the orig
 
 Versions should be tagged with github released on the master branch.
 
-### Content Related Versioning
+#### Content Related Versioning
 
 Changes to the content of the site (specifically everything under `/_content/`) should increment the version numbers for the following reasons:
 

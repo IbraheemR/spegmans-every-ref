@@ -2,6 +2,7 @@
 title: Metric & Binary Prefixes
 description: Uni, Bi, Kilo, Mibi etc.
 author: ibraheem_rodrigues
+category: mathematics
 ---
 
 | Metric Prefix[^1] | Symbol | Factor | Factor | Symbol | Metric Prefix |

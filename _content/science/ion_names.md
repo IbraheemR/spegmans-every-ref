@@ -1,6 +1,7 @@
 ---
 title: Ion Names and Charges
 author: ibraheem_rodrigues
+category: science
 ---
 
 * Toc

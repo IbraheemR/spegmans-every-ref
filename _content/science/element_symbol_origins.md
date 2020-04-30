@@ -1,6 +1,7 @@
 ---
 title: Element Symbol Origins
 author: ibraheem_rodrigues
+category: science
 ---
 
 

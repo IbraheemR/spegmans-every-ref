@@ -22,9 +22,19 @@ collections:
   content:
     output: true
     permalink: /:path
-    category: false
+
+  categories:
+    output: true
+    permalink: /:path
 
 defaults:
   -
     values:
       layout: "page"
+
+  -
+    scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"

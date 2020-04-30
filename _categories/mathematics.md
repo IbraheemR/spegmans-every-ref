@@ -1,4 +1,4 @@
 ---
 title: Mathematics
-layout: category
+category_id: mathematics
 ---
