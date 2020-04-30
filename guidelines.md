@@ -83,6 +83,10 @@ image: spoon.png #  Optional, for SEO
 Spoons come in 3 flavours...
 ```
 
+### A note on titles
+
+If you have specified a title, on any page, you should not be using `<h1>` elements (`# Title`), so SEO reasons (only 1 `<h1>` should be on each page). There is a simple remedy - simple start immediately with `<h2>`/`## Title` elements.
+
 ### Adding media
 If you wish to add media to use in a page (images, etc.):
 - Use [file structure 2](#structuring-a-page)
@@ -92,6 +96,7 @@ Media which is used in several pages in a category may be included in the catego
 
 ### Adding a Table of Contents
 To include a table of contents in on page, add the following code at the top, immediately following the front matter.
+This will sumarise sections of your page in a tree, as denoted by titles/headers. (`<h2>`/`## Subtitle` will be a child of `<h1>`/`## Title`, etc)
 
 {% raw %}
 ```md
