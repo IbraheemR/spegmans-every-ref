@@ -32,13 +32,10 @@ This chart is organised roughly by symbol derivation. See the footnotes.
 |       ![][ps-haw]        | 𐤄 |    ![][am-he]    |          ه           |   ה    |    Εε     |   Ee   |
 |       ![][ps-waw]        | 𐤅‎ |   ![][am-waw]    |          و           |   ו    | Ϝϝ [^old] |   Ff   |
 |                          | ↳  |        →         |          →           |   →    |    Υυ     | Yy→Vv  |
-|                          |    |                  |                      |        |           | Uu, Ww |
 |       ![][ps-zayn]       | 𐤆 |   ![][am-zayn]   |          ز‎           |   ז    |    Ζζ     |   Zz   |
 |       ![][ps-hasr]       | 𐤇 |   ![][am-heth]   |         خ→ح ‎         |   ח    |    Ηη     |   Hh   |
-|                          |    |                  |                      |        |           |        |
 |       ![][ps-tab]        | 𐤈‎ |   ![][am-teth]   |         ظ→ط‎          |   ט    |    Θθ     |        |
 |       ![][ps-yad]        | 𐤉 |   ![][am-yodh]   |          ي‎           |   י    |    Ιι     | Ii→Jj  |
-|                          |    |                  |                      |        |           |        |
 |       ![][ps-kap]        | 𐤊 |   ![][am-kap]    |          ك           |  כ ך   |    Κκ     |   Kk   |
 |       ![][ps-lamd]       | 𐤋 |  ![][am-lamadh]  |          ل‎           |   ל    |    Λλ     |   Ll   |
 |       ![][ps-maym]       | 𐤌‎ |   ![][am-mam]    |          م           |  מ ם   |    Μμ     |   Mm   |
@@ -47,17 +44,17 @@ This chart is organised roughly by symbol derivation. See the footnotes.
 |       ![][ps-ayn]        | 𐤏‎ |    ![][am-e]     |          ع‎           |   ע    |   Οο→Ωω   |   Oo   |
 |        ![][ps-ga]        |    |                  |          غ           |        |           |        |
 |       ![][ps-pit]        | 𐤐‎ |    ![][am-pe]    |          ف‎           |  פ ף   |    Ππ     |   Pp   |
-|       ![][ps-sad]        | 𐤑 |  ![][am-sadhe]   |         ض→ص          |  צ ץ   | Ϻ [^old]  |        |
-|                          |    |                  |                      |        |           |        |
+|       ![][ps-sad]        | 𐤑 |  ![][am-sadhe]   |         ض→ص          |  צ ץ   | Ϻ[^old]→ϡ[^old]  |        |
 |       ![][ps-qup]        | 𐤒 |   ![][am-qop]    |          ق           |   ק    | Ϙϙ[^old]  |   Qq   |
 |       ![][ps-ros]        | 𐤓 |   ![][am-resh]   |          ر‎           |   ר    |    Ρρ     |   Rr   |
 |       ![][ps-sims]       | 𐤔 |   ![][am-shin]   |          ش           |   ש    |   Σσ/ς    |   Ss   |
 |      ![][ps-sadeh]       |    |                  |                      |        |           |        |
-|       ![][ps-taw]        | 𐤕‎ |   ![][am-taw]    |          ت           |   ת    |    Ττ     |   Tt   |
-|                          |    |                  |          ث           |        |           |        |
+|       ![][ps-taw]        | 𐤕‎ |   ![][am-taw]    |          ث,ت           |   ת    |    Ττ     |   Tt   |
 |                          |    |                  |                      |        |    Φφ     |        |
 |                          |    |                  |                      |        |    Χχ     |   Xx   |
 |                          |    |                  |                      |        |    Ψψ     |        |
+
+**Important note:** This page makes no claim of accuracy in any way - treat this information as a point of interest.  This topic is vast and optinions and theories vary. I am yet to have the time to find sources from which to accurately cite all the infomation presented - a lot of it is accumulated from accross wikipedia, for my own reference.
 
 [ps-alp]: https://upload.wikimedia.org/wikipedia/commons/e/ef/Proto-semiticA-01.svg
 [ps-bayt]: https://upload.wikimedia.org/wikipedia/commons/d/dd/Proto-semiticB-01.svg
@@ -69,11 +66,11 @@ This chart is organised roughly by symbol derivation. See the footnotes.
 [ps-hasr]: https://upload.wikimedia.org/wikipedia/commons/9/9d/Proto-semiticH-01.svg
 [ps-tab]: https://upload.wikimedia.org/wikipedia/commons/1/1a/Proto-semiticTet-01.png
 [ps-yad]: https://upload.wikimedia.org/wikipedia/commons/4/40/Proto-semiticI-02.svg
-[ps-kap]: https://en.wikipedia.org/wiki/File:Proto-semiticK-01.svg
+[ps-kap]: https://upload.wikimedia.org/wikipedia/commons/d/d2/Proto-semiticK-01.svg
 [ps-lamd]: https://upload.wikimedia.org/wikipedia/commons/7/7c/Proto-semiticL-01.svg
 [ps-maym]: https://upload.wikimedia.org/wikipedia/commons/f/fb/Proto-semiticM-01.svg
 [ps-nahs]: https://upload.wikimedia.org/wikipedia/commons/5/5f/Proto-semiticN-01.svg
-[ps-samk]: https://upload.wikimedia.org/wikipedia/commons/0/03/Proto-Canaanite_letter_samek.svg
+[ps-samk]: https://upload.wikimedia.org/wikipedia/commons/1/10/Proto-semiticX-01.svg
 [ps-ayn]: https://upload.wikimedia.org/wikipedia/commons/2/20/Proto-semiticO-01.svg
 [ps-ga]: https://upload.wikimedia.org/wikipedia/commons/e/ee/Ghayn.svg
 [ps-pit]: https://upload.wikimedia.org/wikipedia/commons/1/12/Proto-semiticP-01.svg
@@ -112,5 +109,5 @@ This chart is organised roughly by symbol derivation. See the footnotes.
 [^attrib_cronholm]: Images: [Cronholm144](https://commons.wikimedia.org/wiki/User:Cronholm144) / [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/)
 
 [^old]: These characters are no longer present in modern greek.
-[^arbaic_dots]: Many arabic characters look identical, except for the dots. For most of arabic's history, these did not excist. In some of these cases it is unclear which of the two parent characters are the true parent - influence was likely taken from both. Thus the characters have been put under the parent character with the most similar sound.
+[^arbaic_dots]: Many arabic characters look identical, except for the dots. For most of arabic's history, these did not excist- one character stood for many phonics. In some of these cases it is unclear which of the two parent characters are the true parent - influence was likely taken from both. Thus the characters have been put under the parent character with the most similar sound.
 [^runic_link]: I struggled to find any sources detailing direct decendents from latin/greek to runes, so I've put them with symbols of simmilar phonics
