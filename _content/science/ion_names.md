@@ -27,11 +27,11 @@ The ions listed are those which have a different name from their element (e.g. $
 | Hydride   | $$ \ce{H^-} $$   |
 | Oxide     | $$ \ce{O^2-} $$  |
 | Nitride   | $$ \ce{N^3-} $$  |
-| Flouride  | $$ \ce{F^-} $$   |
+| Fluoride  | $$ \ce{F^-} $$   |
 | Chloride  | $$ \ce{Cl^-} $$  |
 | Bromide   | $$ \ce{Br^-} $$  |
 | Iodide    | $$ \ce{I^-} $$   |
-| Sulfide   | $$ \ce{S^2-} $$  |
+| Sulphide   | $$ \ce{S^2-} $$  |
 | Selenide  | $$ \ce{Se^2-} $$ |
 | Telluride | $$ \ce{Te^2-} $$ |
 | Phosphide | $$ \ce{P^3-} $$  |
@@ -55,7 +55,7 @@ The ions listed are those which have a different name from their element (e.g. $
 
 ### Common Polyatomic Ions
 
-Of course many more exist, these are some commoon and uncommon ones.
+Of course many more exist, these are some common and uncommon ones.
 
 **Cations (+)**
 
