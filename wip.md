@@ -33,5 +33,5 @@ title: WIP Pages
 - May need to move table of contents to side (can be quite large, like on guidelines page)
 - Multiple authors
 - Templates for page moves/merges/deletions
-- More rigrous citation specification
-- Specify categories in a data file as opposed to deriving from _content directory?
+- Add index for original work (need original work first)
+

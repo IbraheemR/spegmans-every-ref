@@ -77,10 +77,24 @@ author: j_spegman # Mandatory
 
 category: misc # Mandatory
 
+original: no # Optional, true/yes or false/no (default). Is this original work as opposed to a reference page?
+
 image: spoon.png #  Optional, for SEO
 ---
 
 Spoons come in 3 flavours...
+```
+
+### External Site Template
+
+If you wish to add a link to an useful external site, then do so as if you were adding a page, but use this template:
+```md
+---
+title: Spoons # Mandatory
+description: Common and popular spoons # Optional
+category: misc # Mandatory
+redirect_to: https://spoons.info # Mandatory
+---
 ```
 
 ### A note on titles
