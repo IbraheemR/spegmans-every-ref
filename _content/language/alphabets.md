@@ -23,38 +23,38 @@ This chart is organised roughly by symbol derivation. See the footnotes.
 |  Proto-Sinaitic  |     ↴     |                  |        |        |       |       |               
 |       ↓          | Phonecian |        ↴         |→|→|   ↴   |       |          
 |       ↓          |     ↓     |   Aramaic [^attrib_cronholm]   |   ↴    |   ↴    | Greek |   ↴   | 
-|            ↓             | ↓  |        ↓         | Arabic[^arbaic_dots] | Hebrew |     ↓     | Latin  |
-|:------------------------:|:--:|:----------------:|:--------------------:|:------:|:---------:|:------:|
-| ![][ps-alp] [^attrb_pmx] | 𐤀 |   ![][am-alap]   |         ا‎/ء          |   א    |    Αα     |   Aa   |
-|       ![][ps-bayt]       | 𐤁‎ |   ![][am-beth]   |          ب           |   ב    |    Ββ     |   Bb   |
-|       ![][ps-gaml]       | 𐤂 |  ![][am-gamal]   |          ج           |   ג    |    Γγ     | Gg→Cc  |
-|       ![][ps-dag]        | 𐤃 |  ![][am-dalath]  |         ذ→د          |   ד    |    Δδ     |   Dd   |
-|       ![][ps-haw]        | 𐤄 |    ![][am-he]    |          ه           |   ה    |    Εε     |   Ee   |
-|       ![][ps-waw]        | 𐤅‎ |   ![][am-waw]    |          و           |   ו    | Ϝϝ [^old] |   Ff   |
-|                          | ↳  |        →         |          →           |   →    |    Υυ     | Yy→Vv  |
-|       ![][ps-zayn]       | 𐤆 |   ![][am-zayn]   |          ز‎           |   ז    |    Ζζ     |   Zz   |
-|       ![][ps-hasr]       | 𐤇 |   ![][am-heth]   |         خ→ح ‎         |   ח    |    Ηη     |   Hh   |
-|       ![][ps-tab]        | 𐤈‎ |   ![][am-teth]   |         ظ→ط‎          |   ט    |    Θθ     |        |
-|       ![][ps-yad]        | 𐤉 |   ![][am-yodh]   |          ي‎           |   י    |    Ιι     | Ii→Jj  |
-|       ![][ps-kap]        | 𐤊 |   ![][am-kap]    |          ك           |  כ ך   |    Κκ     |   Kk   |
-|       ![][ps-lamd]       | 𐤋 |  ![][am-lamadh]  |          ل‎           |   ל    |    Λλ     |   Ll   |
-|       ![][ps-maym]       | 𐤌‎ |   ![][am-mam]    |          م           |  מ ם   |    Μμ     |   Mm   |
-|       ![][ps-nahs]       | 𐤍‎ |   ![][am-nun]    |          ن           |  נ ן   |    Νν     |   Nn   |
-|       ![][ps-samk]       | 𐤎 | ![][am-semakath] |          س           |   ס    |    Ξξ     |        |
-|       ![][ps-ayn]        | 𐤏‎ |    ![][am-e]     |          ع‎           |   ע    |   Οο→Ωω   |   Oo   |
-|        ![][ps-ga]        |    |                  |          غ           |        |           |        |
-|       ![][ps-pit]        | 𐤐‎ |    ![][am-pe]    |          ف‎           |  פ ף   |    Ππ     |   Pp   |
-|       ![][ps-sad]        | 𐤑 |  ![][am-sadhe]   |         ض→ص          |  צ ץ   | Ϻ[^old]→ϡ[^old]  |        |
-|       ![][ps-qup]        | 𐤒 |   ![][am-qop]    |          ق           |   ק    | Ϙϙ[^old]  |   Qq   |
-|       ![][ps-ros]        | 𐤓 |   ![][am-resh]   |          ر‎           |   ר    |    Ρρ     |   Rr   |
-|       ![][ps-sims]       | 𐤔 |   ![][am-shin]   |          ش           |   ש    |   Σσ/ς    |   Ss   |
-|      ![][ps-sadeh]       |    |                  |                      |        |           |        |
-|       ![][ps-taw]        | 𐤕‎ |   ![][am-taw]    |          ث,ت           |   ת    |    Ττ     |   Tt   |
-|                          |    |                  |                      |        |    Φφ     |        |
-|                          |    |                  |                      |        |    Χχ     |   Xx   |
-|                          |    |                  |                      |        |    Ψψ     |        |
+|            ↓             | ↓  |        ↓         | Arabic[^arabic_dots] | Hebrew |        ↓        | Latin |
+|:------------------------:|:--:|:----------------:|:--------------------:|:------:|:---------------:|:-----:|
+| ![][ps-alp] [^attrb_pmx] | 𐤀 |   ![][am-alap]   |         ا‎/ء          |   א    |       Αα        |  Aa   |
+|       ![][ps-bayt]       | 𐤁‎ |   ![][am-beth]   |          ب           |   ב    |       Ββ        |  Bb   |
+|       ![][ps-gaml]       | 𐤂 |  ![][am-gamal]   |          ج           |   ג    |       Γγ        | Gg→Cc |
+|       ![][ps-dag]        | 𐤃 |  ![][am-dalath]  |         ذ→د          |   ד    |       Δδ        |  Dd   |
+|       ![][ps-haw]        | 𐤄 |    ![][am-he]    |          ه           |   ה    |       Εε        |  Ee   |
+|       ![][ps-waw]        | 𐤅‎ |   ![][am-waw]    |          و           |   ו    |    Ϝϝ [^old]    |  Ff   |
+|                          | ↳  |        →         |          →           |   →    |       Υυ        | Yy→Vv |
+|       ![][ps-zayn]       | 𐤆 |   ![][am-zayn]   |          ز‎           |   ז    |       Ζζ        |  Zz   |
+|       ![][ps-hasr]       | 𐤇 |   ![][am-heth]   |         خ→ح ‎         |   ח    |       Ηη        |  Hh   |
+|       ![][ps-tab]        | 𐤈‎ |   ![][am-teth]   |         ظ→ط‎          |   ט    |       Θθ        |       |
+|       ![][ps-yad]        | 𐤉 |   ![][am-yodh]   |          ي‎           |   י    |       Ιι        | Ii→Jj |
+|       ![][ps-kap]        | 𐤊 |   ![][am-kap]    |          ك           |  כ ך   |       Κκ        |  Kk   |
+|       ![][ps-lamd]       | 𐤋 |  ![][am-lamadh]  |          ل‎           |   ל    |       Λλ        |  Ll   |
+|       ![][ps-maym]       | 𐤌‎ |   ![][am-mam]    |          م           |  מ ם   |       Μμ        |  Mm   |
+|       ![][ps-nahs]       | 𐤍‎ |   ![][am-nun]    |          ن           |  נ ן   |       Νν        |  Nn   |
+|       ![][ps-samk]       | 𐤎 | ![][am-semakath] |          س           |   ס    |       Ξξ        |       |
+|       ![][ps-ayn]        | 𐤏‎ |    ![][am-e]     |          ع‎           |   ע    |      Οο→Ωω      |  Oo   |
+|        ![][ps-ga]        |    |                  |          غ           |        |                 |       |
+|       ![][ps-pit]        | 𐤐‎ |    ![][am-pe]    |          ف‎           |  פ ף   |       Ππ        |  Pp   |
+|       ![][ps-sad]        | 𐤑 |  ![][am-sadhe]   |         ض→ص          |  צ ץ   | Ϻ[^old]→ϡ[^old] |       |
+|       ![][ps-qup]        | 𐤒 |   ![][am-qop]    |          ق           |   ק    |    Ϙϙ[^old]     |  Qq   |
+|       ![][ps-ros]        | 𐤓 |   ![][am-resh]   |          ر‎           |   ר    |       Ρρ        |  Rr   |
+|       ![][ps-sims]       | 𐤔 |   ![][am-shin]   |          ش           |   ש    |      Σσ/ς       |  Ss   |
+|      ![][ps-sadeh]       |    |                  |                      |        |                 |       |
+|       ![][ps-taw]        | 𐤕‎ |   ![][am-taw]    |         ث,ت          |   ת    |       Ττ        |  Tt   |
+|                          |    |                  |                      |        |       Φφ        |       |
+|                          |    |                  |                      |        |       Χχ        |  Xx   |
+|                          |    |                  |                      |        |       Ψψ        |       |
 
-**Important note:** This page makes no claim of accuracy in any way - treat this information as a point of interest.  This topic is vast and optinions and theories vary. I am yet to have the time to find sources from which to accurately cite all the infomation presented - a lot of it is accumulated from accross wikipedia, for my own reference.
+**Important note:** This page makes no claim of accuracy in any way - treat this information as a point of interest.  This topic is vast and opinions and theories vary. I am yet to have the time to find sources from which to accurately cite all the information presented - a lot of it is accumulated from across wikipedia, for my own reference.
 
 [ps-alp]: https://upload.wikimedia.org/wikipedia/commons/e/ef/Proto-semiticA-01.svg
 [ps-bayt]: https://upload.wikimedia.org/wikipedia/commons/d/dd/Proto-semiticB-01.svg
@@ -109,5 +109,5 @@ This chart is organised roughly by symbol derivation. See the footnotes.
 [^attrib_cronholm]: Images: [Cronholm144](https://commons.wikimedia.org/wiki/User:Cronholm144) / [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/)
 
 [^old]: These characters are no longer present in modern greek.
-[^arbaic_dots]: Many arabic characters look identical, except for the dots. For most of arabic's history, these did not excist- one character stood for many phonics. In some of these cases it is unclear which of the two parent characters are the true parent - influence was likely taken from both. Thus the characters have been put under the parent character with the most similar sound.
-[^runic_link]: I struggled to find any sources detailing direct decendents from latin/greek to runes, so I've put them with symbols of simmilar phonics
+[^arabic_dots]: Many arabic characters look identical, except for the dots. For most of arabic's history, these did not exist- one character stood for many phonics. In some of these cases it is unclear which of the two parent characters are the true parent - influence was likely taken from both. Thus the characters have been put under the parent character with the most similar sound.
+[^runic_link]: I struggled to find any sources detailing direct descendants from latin/greek to runes, so I've put them with symbols of similar phonics

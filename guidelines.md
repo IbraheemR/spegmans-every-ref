@@ -10,7 +10,7 @@ author: ibraheem_rodrigues
 
 Contributions are welcome, as long as they fit the style, aims and ethos of this project, detailed here.
 
-If you have any suggestions or issues either sumbit a [github issue]({{site.github.issues_url}}) or [email me](site.author.email).
+If you have any suggestions or issues either submit a [github issue]({{site.github.issues_url}}) or [email me](site.author.email).
 
 If you want to create content for this project, please first read over these guidelines.
 
@@ -24,7 +24,7 @@ Seed `README.md` for how to run the jekyll site locally.
 ## Key Terms
 All pages should be written in markdown. This site uses [kramdown-flavour markdown](https://kramdown.gettalong.org/) as is standard for Jekyll sites.
 
-These are the key terms, that should be used when refereing to parts of the project.
+These are the key terms, that should be used when referring to parts of the project.
 
 - **Spegman's Every Ref.** (aka 'The Project', 'The Guide', 'The Site')
   - [**Categories**](#categories) - Information groups, defined in `_categories/`
@@ -51,22 +51,22 @@ description: Blah blah blah # Optional, will show up on category index page.
 
 ### Current Categories
 
-| Category      | ID            | Description                                                     |
-|---------------|---------------|-----------------------------------------------------------------|
-| Miscellaneous | `misc`        | Anything that does not belong in another category.              |
-| Mathematics   | `mathematics` | Math(s) related reference. Geometery, Numbers, Set tTheory etc. |
-| Science       | `science`     | Scientific reference - Physics, Chemistry, Biology etc.         |
-| Languages     | `language`    | Languages, alphabets and linguistics reference                  |
+| Category      | ID            | Description                                                    |
+|---------------|---------------|----------------------------------------------------------------|
+| Miscellaneous | `misc`        | Anything that does not belong in another category.             |
+| Mathematics   | `mathematics` | Math(s) related reference. Geometry, Numbers, Set tTheory etc. |
+| Science       | `science`     | Scientific reference - Physics, Chemistry, Biology etc.        |
+| Languages     | `language`    | Languages, alphabets and linguistics reference                 |
 
 ## Pages
 
-Page files should be under their respective [category](#current-categories) in the `_content` folder, and must include the front matter as deffined [below](#page-template).
+Page files should be under their respective [category](#current-categories) in the `_content` folder, and must include the front matter as defined [below](#page-template).
 
 Files can put in one of two places:
 1. `<category_path>/<name>.md` (e.g.`misc/spoons.md`)
 2. `<category_path>/<name>/index.md` (e.g. `misc/spoons/index.md`)
 
-File names should seperate words with underscores `_` (snake case)
+File names should separate words with underscores `_` (snake case)
 
 ### Page Template
 ```md
@@ -74,10 +74,11 @@ File names should seperate words with underscores `_` (snake case)
 title: Spoons # Mandatory
 description: Common and popular spoons # Optional
 author: j_spegman # Mandatory
-
 category: misc # Mandatory
 
 original: no # Optional, true/yes or false/no (default). Is this original work as opposed to a reference page?
+
+redirect_from: # List of pages to redirect to this page from. Used when a page is moved or to link pages with similar names, e.g `/science/glass_colours` redirects from `/science/glass_colors` ([use british english](#standardisation))
 
 image: spoon.png #  Optional, for SEO
 ---
@@ -110,7 +111,7 @@ Media which is used in several pages in a category may be included in the catego
 
 ### Adding a Table of Contents
 To include a table of contents in on page, add the following code at the top, immediately following the front matter.
-This will sumarise sections of your page in a tree, as denoted by titles/headers. (`<h2>`/`## Subtitle` will be a child of `<h1>`/`## Title`, etc)
+This will summarise sections of your page in a tree, as denoted by titles/headers. (`<h2>`/`## Subtitle` will be a child of `<h1>`/`## Title`, etc)
 
 {% raw %}
 ```md
@@ -127,18 +128,18 @@ This will sumarise sections of your page in a tree, as denoted by titles/headers
 
 ## Writing Guidelines
 
-Guides should be factual and to the point. However this guide is as much about interest as it is about factuality - while all included information must be true, we do not aim to be encyclopedic.
+Guides should be factual and to the point. However this guide is as much about interest as it is about factuality - while all included information must be true, we do not aim to be encyclopaedic.
 
-We aim to collect things that are useful, unusual, or tell a story of the human endevour to understand and categorise the world around us.
+We aim to collect things that are useful, unusual, or tell a story of the human endeavour to understand and categorise the world around us.
 
 ### Standardisation
 
 For the sake of consistency:
 
-- Spelling should be according to British English
+- Spelling should be in **British English**. If words like `colour`/`color` are used in a title, be sure to [redirect from](#page-template) the alternative spelling.
 - Use CE/BCE as opposed to AD/BC
 - Dates should be in the DD/MM/YYYY format
-- Times should be given in 24 hour format (00:00 - 11:59)
+- Times should be given in 24 hour format (00:00 - 23:59)
 
 ### Block Quotes
 
@@ -148,7 +149,7 @@ To quote directly from a source, or elsewhere in the guide, use a block quote:
 > To be, or not to be
 ```
 
-When you give attribution, either link to a source as [below](#citing-sources) or use the following syntax for direct attribution:
+When you give attribution, either link to a source as [below](#citing-sources-and-giving-attribution) or use the following syntax for direct attribution:
 
 ```md
 > To be, or not to be
@@ -177,12 +178,12 @@ $$ y = mx + c $$
 This works for both inline and block level (automatically detected, note `$...$` is not supported by kramdown):
 
 ```
-Quadratic equations have the form \$$ y = ax^2 + bx + c $$
+Quadratic equations have the form $$ y = ax^2 + bx + c $$
 ```
 
 > Quadratic equations have the form $$ y = ax^2 + bx + c $$
 
-To force it to render in the opposite level (inline to block and vicea versa) use `\$$ ... $$`
+To force it to render in the opposite level (inline to block and vice-versa) use `\$$ ... $$`
 
 ```
 If $$ y = 0 $$ you can find x: \$$ x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} $$
@@ -192,26 +193,31 @@ If $$ y = 0 $$ you can find x: \$$ x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} $$
 
 The [LaTeX Wiki](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Symbols) has a good reference for typesetting equations.
 
-### Citing sources
-
-Prefer: \\
-**Primary souces (firsthand evidence)** over \\
- **Secondary sources (interpretations, analysies)** over \\
- **Tertiary sources (compilations, summarisations)**.
-
-As such Wikipedia (tertiary) is usually never a good source.
-
-Citations should include (at a minimum) author, place of access (book title/page, website url) and date accessed (websites only).
-
-To cite sources use kramdown's footnote syntax:
+### Citing sources and giving attribution
+To cite sources or give attribution use kramdown's footnote syntax. This supports both numbered and worded footnotes, however everything will be rendered to numbers. Prefer short descriptive words to numbers, as below
 
 ```md
-Spoons are most commonly made of steel.[^1] <!-- Link to footnote -->
+Spoons are most commonly made of steel. [^spoons_website] <!-- Link to footnote -->
 
-Spoons come in many flavours.[^1] <!-- Use it again-->
+Spoons come in many flavours. [^spoons_website] <!-- Use it again-->
 
-[^1]: https://spoons.info (Accessed 01/04/2020) <!-- Define the footnote -->
+[^spoons_website]: [https://spoons.info](https://spoons.info) (Accessed 01/04/2020) <!-- Define the footnote -->
+```
 
+#### Citation Templates
+
+```md
+<!-- Physical reference -->
+[^book]: <Surname>, <Firstname>. <Book title> <Pub date>, p<Page number>. 
+<!-- Web reference -->
+[^web]: [<Page URL>](<Page URL>) (Accessed <Date>) 
+<!-- Media attribution -->
+[^image]: [<Image owner>](<Owner or image link>) [<License type>](<License Link>) 
+
+<!-- Examples -->
+[^spoon_book]: Spooner, Daniel. Spoons of Northumbria 2004, p42.
+[^spoons_website]: [https://spoons.info](https://spoons.info) (Accessed 01/04/2020)
+[^spoons_image]: [Andrew Gustar](https://flic.kr/p/djVV3o) [CC BY ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/)
 ```
 
 See the [kramdown footnote docs](https://kramdown.gettalong.org/syntax.html#footnotes) for more.
@@ -230,7 +236,7 @@ See the [kramdown footnote docs](https://kramdown.gettalong.org/syntax.html#foot
 
 
 ### Adding an author
-To add youself as an author, add an entry to `/_data/authors.yml`, like follows:
+To add yourself as an author, add an entry to `/_data/authors.yml`, like follows:
 
 ```yml
 j_spegman:
@@ -245,7 +251,7 @@ See the [template](#page-template) for how to add an author to a page.
 
 ### Versioning
 
-We aim to follow [Semantic Versioning](https://semver.org/), however as the original specification is not intended for non-code applications, the following guidelines will be used to follow semver's spirit - chiefy to communicate intent.
+We aim to follow [Semantic Versioning](https://semver.org/), however as the original specification is not intended for non-code applications, the following guidelines will be used to follow semver's spirit - chiefly to communicate intent.
 
 > Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
 >
@@ -265,7 +271,7 @@ Changes to the content of the site (specifically everything under `/_content/`) 
 
 **Important notes when changing pages (MINOR changes):**
 
-If a page is moved or marged with another, the new page should redirect from the old page url:
+If a page is moved or merged with another, the new page should redirect from the old page url:
 
 ```yml
 ---

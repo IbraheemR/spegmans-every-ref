@@ -13,8 +13,8 @@ category: mathematics
 |    Quantity     | Common Prefixes       | IUPAC Standard (Chemical Names)[^chemical] |
 |:---------------:|-----------------------|--------------------------------------------|
 | $$\frac{1}{2}$$ | Semi-, Demi-, Hemi-   | N/A                                        |
-|        1        | Uni-, Mono-           | Mono-, [hen-](#iupac-names-)                |
-|        2        | Bi-, Di-              | Di-, [do-](#iupac-names-)                                         |
+|        1        | Uni-, Mono-           | Mono-, [hen-](#iupac-names-)               |
+|        2        | Bi-, Di-              | Di-, [do-](#iupac-names-)                  |
 |        3        | Tri-                  | Tri                                        |
 |        4        | Quad-, Tetra-         | Tetra-                                     |
 |        5        | Penta-                | Penta-                                     |
@@ -35,7 +35,7 @@ category: mathematics
 
 ### IUPAC Names [^chemical]
 
-For higher numtiples of 10, 100 and 1000:
+For higher multiples of 10, 100 and 1000:
 - 30, 40, 50 etc: Add **-conta-** (tetraconta-, pentaconta-)
 - 300, 400, 500 etc: Add **-cta-** (tricta-, tetracta-)
 - 2000, 3000 etc: Add **-lia-** (hexalia-, hexalia-)

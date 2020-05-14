@@ -46,7 +46,7 @@ category: misc
 | Onion Skins      | Yellow        |                                                                                                                                          | ![][onion] [^5]         |
 | Weld             | Yellow        | Dyer's Weed (*Reseda luteola*).                                                                                                          | ![][weld] [^6]          |
 | Nettles          | Blue-Green    |                                                                                                                                          |                         |
-| Lincoln Green    | Deep Green    | Woad dyed fabrics, overdyed with weld.                                                                                                   |                         |
+| Lincoln Green    | Deep Green    | Woad dyed fabrics, over-dyed with weld.                                                                                                  |                         |
 | Indigo, Woad     | Deep blue     | Variety of plants, mostly from the *Indigofera*  genus or Woad (*Isatis tinctoria*)                                                      | ![][indigo]             |
 
 [dragons_blood]: https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Dragon%27s_blood_%28Daemomorops_draco%29.jpg/640px-Dragon%27s_blood_%28Daemomorops_draco%29.jpg
@@ -80,10 +80,10 @@ category: misc
 | Name                  | Colour            | Description                                                                                                                                                                       | Image         |
 |-----------------------|-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
 | Lamp Black            | Black             | Soot, mixed with oil or water & a binder.                                                                                                                                         |               |
-| India Ink             | Black             | Fine lamp black, mixed with hide glue and set into sticks or pellets. Reliquified with water before use. Invented in ancient China, but named as it was commonly traded in India. | ![][inkstick] |
-| Iron Gall Ink         | Black-Green/Brown | Tannins from oak gall extract mixed with iron sulfate.                                                                                                                            |               |
-| 'Dragon's blood' Ink  | Dark Red          | Powedered 'Dragon's Blood' resin and gum arabic, dissolved in water. See 'Dragon's Blood' under [Plant Derived](#plant-derived). Commonly used by the Romans.                     |               |
-| Cephlapod (Sepia) Ink | Black-Brown       | Inc sacs of squids, cuttlefish and octopuses.                                                                                                                                     |               |
+| India Ink             | Black             | Fine lamp black, mixed with hide glue and set into sticks or pellets. Reliquefied with water before use. Invented in ancient China, but named as it was commonly traded in India. | ![][inkstick] |
+| Iron Gall Ink         | Black-Green/Brown | Tannins from oak gall extract mixed with iron sulphate.                                                                                                                           |               |
+| 'Dragon's blood' Ink  | Dark Red          | Powdered 'Dragon's Blood' resin and gum arabic, dissolved in water. See 'Dragon's Blood' under [Plant Derived](#plant-derived). Commonly used by the Romans.                      |               |
+| Cephlapod (Sepia) Ink | Black-Brown       | Ink sacs of squids, cuttlefish and octopuses.                                                                                                                                     |               |
 
 [inkstick]: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Inkstick.jpg/204px-Inkstick.jpg
 [^10]: [Marco Almbauer](https://commons.wikimedia.org/wiki/File:Drei_verschiedene_Ockert%C3%B6ne.JPG) / [CC BY-SA 3.0][CC_BY_SA3]
