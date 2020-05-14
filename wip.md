@@ -33,4 +33,5 @@ title: WIP Pages
 - May need to move table of contents to side (can be quite large, like on guidelines page)
 - Multiple authors
 - Templates for page moves/merges/deletions
-- More rigrous citation specification
+- Add index for original work (need original work first)
+

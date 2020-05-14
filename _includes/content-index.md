@@ -12,7 +12,7 @@
 
 {% for page in {{site.content | where:"category",cat.category_id }} %}
 {% if page.category == cat.category_id %}
-  - [{{page.title}}]({{page.url}})
+  - [{{page.title}} {% include content-tags.html page=page %}]({{page.redirect_to |default: page.url}}) 
 {% endif %}
 {% endfor %}
 
