@@ -66,7 +66,7 @@ Files can put in one of two places:
 1. `<category_path>/<name>.md` (e.g.`misc/spoons.md`)
 2. `<category_path>/<name>/index.md` (e.g. `misc/spoons/index.md`)
 
-File names should seperate words with underscores `_` (snake case)
+File names should separate words with underscores `_` (snake case)
 
 ### Page Template
 ```md
@@ -114,9 +114,9 @@ This will summarise sections of your page in a tree, as denoted by titles/header
 
 ## Writing Guidelines
 
-Guides should be factual and to the point. However this guide is as much about interest as it is about factuality - while all included information must be true, we do not aim to be encyclopedic.
+Guides should be factual and to the point. However this guide is as much about interest as it is about factuality - while all included information must be true, we do not aim to be encyclopaedic.
 
-We aim to collect things that are useful, unusual, or tell a story of the human endevour to understand and categorise the world around us.
+We aim to collect things that are useful, unusual, or tell a story of the human endeavour to understand and categorise the world around us.
 
 ### Standardisation
 
@@ -169,7 +169,7 @@ Quadratic equations have the form $$ y = ax^2 + bx + c $$
 
 > Quadratic equations have the form $$ y = ax^2 + bx + c $$
 
-To force it to render in the opposite level (inline to block and vicea versa) use `\$$ ... $$`
+To force it to render in the opposite level (inline to block and vice-versa) use `\$$ ... $$`
 
 ```
 If $$ y = 0 $$ you can find x: \$$ x=\frac{-b\pm\sqrt{b^2-4ac}}{2a} $$
@@ -237,7 +237,7 @@ See the [template](#page-template) for how to add an author to a page.
 
 ### Versioning
 
-We aim to follow [Semantic Versioning](https://semver.org/), however as the original specification is not intended for non-code applications, the following guidelines will be used to follow semver's spirit - chiefy to communicate intent.
+We aim to follow [Semantic Versioning](https://semver.org/), however as the original specification is not intended for non-code applications, the following guidelines will be used to follow semver's spirit - chiefly to communicate intent.
 
 > Under this scheme, version numbers and the way they change convey meaning about the underlying code and what has been modified from one version to the next.
 >
@@ -257,7 +257,7 @@ Changes to the content of the site (specifically everything under `/_content/`) 
 
 **Important notes when changing pages (MINOR changes):**
 
-If a page is moved or marged with another, the new page should redirect from the old page url:
+If a page is moved or merged with another, the new page should redirect from the old page url:
 
 ```yml
 ---
