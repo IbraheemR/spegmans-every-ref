@@ -51,13 +51,12 @@ description: Blah blah blah # Optional, will show up on category index page.
 
 ### Current Categories
 
-| Category | ID | Description |
-|----------|--------|-------------|
-| Miscellaneous |`misc`| Anything that does not belong in another category. |
-| Mathematics | `mathematics` | Math(s) related reference. Geometery, Numbers, Set tTheory etc. |
-| Science | `science` | Scientific reference - Physics, Chemistry, Biology etc.  |
-| Standards | `standards` | Reference for standards - e.g from ISO, w3c, Unicode Consortium |
-| Languages | `language` | Languages, alphabets and linguistics reference |
+| Category      | ID            | Description                                                     |
+|---------------|---------------|-----------------------------------------------------------------|
+| Miscellaneous | `misc`        | Anything that does not belong in another category.              |
+| Mathematics   | `mathematics` | Math(s) related reference. Geometery, Numbers, Set tTheory etc. |
+| Science       | `science`     | Scientific reference - Physics, Chemistry, Biology etc.         |
+| Languages     | `language`    | Languages, alphabets and linguistics reference                  |
 
 ## Pages
 
@@ -84,6 +83,10 @@ image: spoon.png #  Optional, for SEO
 Spoons come in 3 flavours...
 ```
 
+### A note on titles
+
+If you have specified a title, on any page, you should not be using `<h1>` elements (`# Title`), so SEO reasons (only 1 `<h1>` should be on each page). There is a simple remedy - simple start immediately with `<h2>`/`## Title` elements.
+
 ### Adding media
 If you wish to add media to use in a page (images, etc.):
 - Use [file structure 2](#structuring-a-page)
@@ -93,6 +96,7 @@ Media which is used in several pages in a category may be included in the catego
 
 ### Adding a Table of Contents
 To include a table of contents in on page, add the following code at the top, immediately following the front matter.
+This will sumarise sections of your page in a tree, as denoted by titles/headers. (`<h2>`/`## Subtitle` will be a child of `<h1>`/`## Title`, etc)
 
 {% raw %}
 ```md
@@ -203,12 +207,12 @@ See the [kramdown footnote docs](https://kramdown.gettalong.org/syntax.html#foot
 
 ### Important Files
 
-| Name | File | Description |
-|----------|--------|-------------|
-| Home | `index.md` | Site homepage. |
-| Guidelines | `guidelines.md` | Information related to contributing to the reference. |
-| README | `README.md`| Information related to developing the technical side of the site. |
-| WIP/Planned Content | `wip.md` | Record of work-in-progress or planned pages |
+| Name                | File            | Description                                                       |
+|---------------------|-----------------|-------------------------------------------------------------------|
+| Home                | `index.md`      | Site homepage.                                                    |
+| Guidelines          | `guidelines.md` | Information related to contributing to the reference.             |
+| README              | `README.md`     | Information related to developing the technical side of the site. |
+| WIP/Planned Content | `wip.md`        | Record of work-in-progress or planned pages                       |
 
 
 ### Adding an author
@@ -233,7 +237,7 @@ We aim to follow [Semantic Versioning](https://semver.org/), however as the orig
 >
 > [*https://semver.org/*](https://semver.org/)
 
-The site deployment on netlify is set to rebuild a fresh site when a new release is released.
+Versions should be tagged with github released on the master branch.
 
 #### Content Related Versioning
 
@@ -259,6 +263,6 @@ If a page is deleted, a file should be left in its place informing any users of 
 
 Whether these temporary pages should be kept after a MAJOR change should be decided on a case by case basis.
 
+## Deploying to netlify
 
-
-
+Deploys are triggered by creating a new tag on github. This will trigger a github action to build the site, and deploy it on netlify.
