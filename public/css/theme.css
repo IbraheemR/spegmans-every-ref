@@ -48,3 +48,14 @@ content: "\a0\a0";
 
     font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
+
+.masthead-version {
+    flex-grow: 1;
+    text-align: right;
+
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+
+    font-weight: 400;
+    color: #c0c0c0;
+    letter-spacing: 0;
+}

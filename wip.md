@@ -2,7 +2,7 @@
 title: WIP Pages
 ---
 
-#### Planned pages for the future
+#### Planned pages for the futurebun
 
 - Alphabets
     - Latin
@@ -10,7 +10,6 @@ title: WIP Pages
     - Greek
     - Hebrew
     - Cyrilic
-    - _Derivations?_
 
 - Codes
     - Morse
@@ -19,10 +18,10 @@ title: WIP Pages
 - Letter locking techniques
 
 - Maths
-    - Contants : PI, e
+    - Constants : PI, e
 
 - Coding
-    - HTTP status codes - standard + nonstandard
+    - HTTP status codes - standard + non-standard
 
 - Physics/Chem
     - Constants
